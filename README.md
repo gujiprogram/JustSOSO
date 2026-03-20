@@ -31,24 +31,32 @@
 - **爬虫服务** - 独立的电影数据爬取服务
 
 ## 📋 项目结构
+
 Justsoso/
-├── Django/ # Django后端项目
-│ ├── Django/ # 项目配置
-│ ├── users/ # 用户管理应用
-│ ├── movies/ # 电影管理应用
-│ ├── movie_poster/ # 海报管理应用
-│ ├── app_auth/ # 认证应用
-│ ├── restfulapi/ # RESTful API
-│ ├── static/ # 静态文件
-│ │ └── media/ # 媒体文件（海报图片）
-│ └── templates/ # 模板文件
-├── vue-app/ # Vue前端项目
-│ ├── src/
-│ │ ├── components/ # Vue组件
-│ │ ├── views/ # 页面视图
-│ │ ├── router/ # 路由配置
-│ │ └── config/ # 配置文件
-│ └── public/ # 公共资源
-├── Picture/ # 图片资源
-├── justsoso.sql # 数据库备份文件
-└── my_vue.conf # Nginx配置文件
+├── Django/                     # Django后端项目
+│   ├── Django/                # 项目配置（settings、urls等）
+│   ├── users/                # 用户管理
+│   ├── movies/               # 电影资源管理
+│   ├── movie_poster/         # 海报上传与管理
+│   ├── app_auth/             # 登录认证
+│   ├── restfulapi/           # API接口整合
+│   ├── static/               # 静态文件
+│   ├── templates/            # 模板文件
+│   └── manage.py
+
+├── Justsoso_movie/           # 爬虫服务（Flask）
+│   ├── main.py
+│   └── requirements.txt
+
+├── vue-app/                  # Vue前端项目
+│   ├── src/
+│   │   ├── components/       # 组件
+│   │   ├── views/            # 页面
+│   │   ├── router/           # 路由
+│   │   └── config/           # API配置
+│   ├── public/
+│   └── package.json
+
+├── Picture/                  # 图片资源
+├── justsoso.sql              # 数据库备份
+├── my_vue.conf               # Nginx配置（前端部署）
