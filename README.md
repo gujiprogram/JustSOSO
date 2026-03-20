@@ -156,3 +156,7 @@ http://127.0.0.1:8000/admin/
 
 ### 📡 API 文档
 ![API](Picture/API.png)
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Django](https://img.shields.io/badge/Django-5.0-green)
+![Vue](https://img.shields.io/badge/Vue-3-brightgreen)
