@@ -1,5 +1,9 @@
 # JUST搜搜 - 电影资源搜索平台
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Django](https://img.shields.io/badge/Django-5.0-green)
+![Vue](https://img.shields.io/badge/Vue-3-brightgreen)
+
 一个基于 Django + Vue.js 的电影资源搜索平台，提供电影信息检索、网盘资源管理和海报展示功能。
 
 ## ✨ 功能特性
@@ -156,7 +160,3 @@ http://127.0.0.1:8000/admin/
 
 ### 📡 API 文档
 ![API](Picture/API.png)
-
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Django](https://img.shields.io/badge/Django-5.0-green)
-![Vue](https://img.shields.io/badge/Vue-3-brightgreen)
