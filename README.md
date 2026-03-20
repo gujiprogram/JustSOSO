@@ -32,31 +32,33 @@
 
 ## 📋 项目结构
 
+```text
 Justsoso/
 ├── Django/                     # Django后端项目
-│   ├── Django/                # 项目配置（settings、urls等）
-│   ├── users/                # 用户管理
-│   ├── movies/               # 电影资源管理
-│   ├── movie_poster/         # 海报上传与管理
-│   ├── app_auth/             # 登录认证
-│   ├── restfulapi/           # API接口整合
-│   ├── static/               # 静态文件
-│   ├── templates/            # 模板文件
+│   ├── Django/                 # 项目配置（settings、urls等）
+│   ├── users/                  # 用户管理
+│   ├── movies/                 # 电影资源管理
+│   ├── movie_poster/           # 海报上传与管理
+│   ├── app_auth/               # 登录认证
+│   ├── restfulapi/             # API接口整合
+│   ├── static/                 # 静态文件
+│   ├── templates/              # 模板文件
 │   └── manage.py
 
-├── Justsoso_movie/           # 爬虫服务（Flask）
+├── Justsoso_movie/             # 爬虫服务（Flask）
 │   ├── main.py
 │   └── requirements.txt
 
-├── vue-app/                  # Vue前端项目
+├── vue-app/                    # Vue前端项目
 │   ├── src/
-│   │   ├── components/       # 组件
-│   │   ├── views/            # 页面
-│   │   ├── router/           # 路由
-│   │   └── config/           # API配置
+│   │   ├── components/         # 组件
+│   │   ├── views/              # 页面
+│   │   ├── router/             # 路由
+│   │   └── config/             # API配置
 │   ├── public/
 │   └── package.json
 
-├── Picture/                  # 图片资源
-├── justsoso.sql              # 数据库备份
-├── my_vue.conf               # Nginx配置（前端部署）
+├── Picture/                    # 图片资源
+├── justsoso.sql                # 数据库备份
+└── my_vue.conf                 # Nginx配置（前端部署）
+```
