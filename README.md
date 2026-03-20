@@ -64,6 +64,77 @@ Justsoso/
 ```
 ---
 
+## 🚀 快速启动
+
+### 1️⃣ 克隆项目
+
+```bash
+git clone https://github.com/你的用户名/justsoso.git
+cd justsoso
+```
+🗄️ 2️⃣ 数据库配置
+
+创建数据库：
+```SQL
+CREATE DATABASE justsoso DEFAULT CHARSET utf8mb4;
+```
+导入数据：
+```bash
+mysql -u root -p justsoso < justsoso.sql
+```
+修改 Django 配置：
+```bash
+# Django/settings.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'justsoso',
+        'USER': '你的数据库用户名',
+        'PASSWORD': '你的数据库密码',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+```
+
+🖥️ 3️⃣ 启动 Django 后端
+```bash
+cd Django
+pip install -r requirements.txt
+
+python manage.py migrate
+python manage.py runserver
+```
+访问：
+```bash
+http://127.0.0.1:8000/
+```
+🧠 4️⃣ 启动爬虫服务（Flask）
+```bash
+cd Justsoso_movie
+pip install -r requirements.txt
+python main.py
+```
+🌐 5️⃣ 启动前端（Vue）
+```bash
+cd vue-app
+npm install
+npm run dev
+```
+访问：
+```bash
+http://localhost:5173
+```
+📡 6️⃣ API 文档
+```bash
+http://127.0.0.1:8000/swagger/
+```
+⚙️ 7️⃣ 后台管理
+```
+http://127.0.0.1:8000/admin/
+```
+
 ## 📸 项目展示
 
 ### 🔍 前端页面
