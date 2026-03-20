@@ -1,6 +1,7 @@
 # JUST搜搜 - 电影资源搜索平台
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Django](https://img.shields.io/badge/Django-5.0-green)
 ![Vue](https://img.shields.io/badge/Vue-3-brightgreen)
 
