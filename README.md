@@ -62,3 +62,31 @@ Justsoso/
 ├── justsoso.sql                # 数据库备份
 └── my_vue.conf                 # Nginx配置（前端部署）
 ```
+---
+
+## 📸 项目展示
+
+### 🔍 前端页面
+
+#### PC端
+![前端1](Picture/前端1.png)
+![前端2](Picture/前端2.png)
+
+#### 📱 移动端适配
+![移动端](Picture/前端手机适配.png)
+
+---
+
+### 🔐 登录 / 注册
+![登录](Picture/前端1.png)
+
+---
+
+### ⚙️ 后台管理系统
+![后台1](Picture/后台.png)
+![后台2](Picture/后台2.png)
+
+---
+
+### 📡 API 文档（Swagger）
+![API](Picture/API.png)
