@@ -72,7 +72,7 @@ Justsoso/
 git clone https://github.com/你的用户名/justsoso.git
 cd justsoso
 ```
-🗄️ 2️⃣ 数据库配置
+### 2️⃣ 数据库配置
 
 创建数据库：
 ```SQL
@@ -98,7 +98,7 @@ DATABASES = {
 }
 ```
 
-🖥️ 3️⃣ 启动 Django 后端
+### 3️⃣ 启动 Django 后端
 ```bash
 cd Django
 pip install -r requirements.txt
@@ -110,13 +110,13 @@ python manage.py runserver
 ```bash
 http://127.0.0.1:8000/
 ```
-🧠 4️⃣ 启动爬虫服务（Flask）
+### 4️⃣ 启动爬虫服务（Flask）
 ```bash
 cd Justsoso_movie
 pip install -r requirements.txt
 python main.py
 ```
-🌐 5️⃣ 启动前端（Vue）
+### 5️⃣ 启动前端（Vue）
 ```bash
 cd vue-app
 npm install
@@ -126,30 +126,25 @@ npm run dev
 ```bash
 http://localhost:5173
 ```
-📡 6️⃣ API 文档
+### 6️⃣ API 文档
 ```bash
 http://127.0.0.1:8000/swagger/
 ```
-⚙️ 7️⃣ 后台管理
+### 7️⃣ 后台管理
 ```
 http://127.0.0.1:8000/admin/
 ```
 
 ## 📸 项目展示
 
-### 🔍 前端页面
+### 🖥️ 前端展示
 
 #### PC端
 ![前端1](Picture/前端1.png)
 ![前端2](Picture/前端2.png)
 
-#### 📱 移动端适配
+#### 📱 移动端
 ![移动端](Picture/前端手机适配.png)
-
----
-
-### 🔐 登录 / 注册
-![登录](Picture/前端1.png)
 
 ---
 
@@ -159,5 +154,5 @@ http://127.0.0.1:8000/admin/
 
 ---
 
-### 📡 API 文档（Swagger）
+### 📡 API 文档
 ![API](Picture/API.png)
